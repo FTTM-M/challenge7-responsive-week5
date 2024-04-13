@@ -162,3 +162,113 @@ footer i:hover {
     padding: 130px 20px;
   }
 }
+.contentPage {
+  padding: 160px 20px;
+}
+.contentPage h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
+}
+.intro {
+  margin: 30px;
+}
+.contentPage h2 {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.contentPage p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.btn-branding {
+  font-family: "Poppins", sans-serif;
+  background: #6c63ff;
+  color: white;
+  border-radius: 4px !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  padding: 15px 30px !important;
+}
+@media (max-width: 992px) {
+  .contentPage h1 {
+    font-size: 54px;
+    text-align: center;
+    font-size: 44px;
+  }
+  .contentPage h2,
+  p {
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+  }
+}
+
+.content {
+  margin: 30px;
+  padding: 160px 20px;
+}
+.content h1 {
+  text-align: center;
+  font-size: 64px;
+  line-height: 80px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+.content h2 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #7b8288;
+}
+@media (max-width: 990px) {
+  .content h1 {
+    font-size: 44px;
+  }
+}
+
+.content {
+  padding: 150px 120px;
+}
+.more-content {
+  margin: 30px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+.content h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.content p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+@media (max-width: 990px) {
+  .content {
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 54px;
+  }
+}
