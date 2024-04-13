@@ -1,0 +1,164 @@
+.logo {
+  max-width: 150px;
+}
+.second-logo {
+  max-width: 40px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  display: inline;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+
+  line-height: 42px;
+}
+nav {
+  padding: 20px 0px;
+}
+
+li a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+nav li.active a,
+li a:hover {
+  color: #6c63ff;
+}
+
+.main {
+  text-align: center;
+  background: #f9f7fe;
+  padding: 160px 20px;
+}
+p,
+h2,
+.btn-primary {
+  font-family: "Poppins", sans-serif;
+  color: #272142;
+}
+p {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+h2 {
+  line-height: 2;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.btn-class {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-weight: 20px;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+.paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+.description {
+  font-size: 64px;
+}
+.text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(37, 37, 37);
+  font-family: "Poppins", sans-serif;
+}
+.project-info {
+  padding: 120px 60px;
+}
+.btn-branding {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.footer-part {
+  background: #f9f7fe;
+  padding: 30px;
+}
+
+footer h3 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+.contact-section {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  margin: 100px 0px;
+  text-align: center;
+}
+footer .email a {
+  margin: 70px 0px;
+
+  font-size: 28px;
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+footer .email a:hover {
+  color: #6c63ff;
+}
+
+footer i {
+  margin: 20px;
+  color: #6c63ff;
+  font-size: 17px;
+  background: #f9f7fe;
+  padding: 10px;
+  border-radius: 30px;
+}
+footer i:hover {
+  color: #f9f7fe;
+  background: #6c63ff;
+}
+
+@media (max-width: 990px) {
+  .project-info {
+    padding: 0px;
+    text-align: center;
+  }
+  h1,
+  .description {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 32px;
+  }
+  .paragraph {
+    margin: 0px 20px;
+    font-size: 14px;
+  }
+  .main {
+    padding: 130px 20px;
+  }
+}
